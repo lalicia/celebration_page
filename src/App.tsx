@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useWindowSize from "react-use/lib/useWindowSize";
 import Confetti from "react-confetti";
 import "./App.css";
