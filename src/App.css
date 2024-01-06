@@ -103,11 +103,13 @@
   background-image: linear-gradient(
     to left,
     violet,
+    purple,
     indigo,
-    blue,
     teal,
-    blue,
+    aqua,
+    teal,
     indigo,
+    purple,
     violet
   );
   -webkit-background-clip: text;
