@@ -11,7 +11,7 @@ function App() {
     <div className={!exploded ? "container-dark" : "container-light"}>
       {!exploded ? (
         <button className="button" onClick={() => setExploded(true)}>
-          Click me if you've run your last Saturday server patching...
+          Click me if you've had a long day at work...
         </button>
       ) : (
         <>
@@ -26,9 +26,9 @@ function App() {
           />
           <h1 className="message">
             <p>🥳</p>
-            Woo hoo!
+            It's over now!
             <br />
-            Congratulations, muppet!
+            You made it and it's one day closer to the weekend! Woo! 
           </h1>
         </>
       )}
